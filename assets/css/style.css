@@ -1,0 +1,254 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #eeeded
+}
+.logo-left img {
+    height: 30px;
+}
+.logo-right img {
+    height: 30px;
+}
+.header {
+    padding: 6px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.banner {
+    height: calc(100vh - 45px);
+    background-color: #333;
+    background-image: url('../imagens/london.jpg');
+    background-size: cover;
+    background-position: bottom;
+    overflow: hidden;
+}
+.sliders {
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    max-width: 1140px;
+    margin: auto;
+}
+.slide {
+    align-items: center;
+    margin-top: 300px;
+
+}
+.sliderarea {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.flight {
+    background-color: red;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 33%;
+    color: white;
+    height: 35px;
+}
+.hotel {
+    background-color: black;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 33%;
+    color: white;
+    height: 35px;
+}
+.rental {
+    background-color: black;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 34%;
+    color: white;
+    height: 35px;
+}
+.form {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.form-description p {
+    font-size: 25px;
+}
+.form-input {
+    display: flex;
+    justify-content: space-between;
+}
+.button {
+    display: inline-block;
+    background-color: #444;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: 30px;
+}
+.button-2 {
+    display: inline-block;
+    background-color: #FA8072;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+.form-input--left input {
+    padding: 10px 180px;
+    margin-top: -14px;
+}
+.form-input--right input {
+    padding: 10px 180px;
+    margin-top: -14px;
+}
+.form a {
+    margin-bottom: 28px;
+    margin-top: 15px;
+}
+.default {
+    max-width: 80%;
+    margin: auto;
+    margin-top: 25px;
+}
+.section-titlle {
+    font-size: 25px;
+    margin-bottom: 10px;
+    justify-content: center;
+    margin-left: -53px;
+}
+.section-titlle-2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    justify-content: center;
+    margin-left: -57px;
+    margin-top: 35px;
+}
+.section-desc{
+    margin-left: -53px;
+}
+.section-desc-2{
+    margin-left: -57px;
+}
+.images {
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+}
+.images-price {
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+}
+.images--2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.img-1,
+.img-2,
+.img-3 {
+    padding-right: 15px;
+}
+.img-2,
+.img-4 {
+    padding-bottom: 20px;
+}
+.city {
+    font-size: 23px;
+    color: white;
+    margin-top: -45px;
+    margin-left: 20px;
+}
+.img-price img,
+.img-price1 img {
+    height: 402px;
+}
+.img-price1 {
+    margin-right: 15px;
+}
+.img-price img{
+    width: 818px;
+}
+.price-name {
+    background-color: white;
+    margin-top: -3px;
+    font-size: 25px;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+.price {
+    color: #999;
+    font-size: 18px;
+}
+p {
+    font-size: 18px;
+}
+.buy {
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.form-2 {
+    width: 1636px;
+    height: 300px;
+    background-color: #555;
+    margin-left: -56px;
+    margin-top: 30px;
+    color: white;
+}
+.form-2 .form-description {
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.form-2 .form-input {
+    padding-left: 15px;
+}
+.form-input--2 input {
+    padding: 10px 700px;
+    margin-top: -14px;
+}
+
+.contact {
+    margin-left: -56px;
+    margin-top: 30px;
+}
+
+.contact-description {
+    padding-top: 15px;
+    font-size: 25px;
+}
+.text-contact {
+    margin-top: -5px;
+}
+
+.form-contact input{
+    padding: 10px 733px;
+    margin-top: 15px;
+    border-color: #fffefe;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #999;
+    font-size: 18px;
+}
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #999;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.link a {
+    text-decoration: none;
+}
